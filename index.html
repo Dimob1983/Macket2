@@ -4,47 +4,57 @@
 <head>
     <meta charset="TT-Lakes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="background">
-        <nav class="upper-menu">
-            <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button_burger"></button>
-            <div class="upper-menu__logo"></div>
-            <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button_search"></button>
-        </nav>
-    
-    
-        <ul class="menu">
-            <li class="menu__menu-button"><span class="text">Ремонт техники</span></li>
-            <li class="menu__menu-button">Услуги и сервисы</li>
-            <li class="menu__menu-button">Корпоративным клиентам</li>
-            <li class="menu__menu-button">Продавцам техники</li>
-            <li class="menu__menu-button">Партнерам</li>
-            <li class="menu__menu-button">Производителям</li>
-            <li class="menu__menu-button">Наши сервисные центры</li>
-            <li class="menu__menu-button">Контакты</li>
-        </ul>
-    
-    
-        <div class="bottom-menu">
-            <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button-call-me"></button>
-            <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button-chat"></button>
-            <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button-profile"></button>
-            <div class="bottom-menu__contacts">
-                <a class="bottom-menu__email" href="">mail@cps.com</a>
+    <header>
 
-                <span class="bottom-menu__contacts bottom-menu__contacts_number">8 800 890 8900</span>
-                <div class="bottom-menu bottom-menu__contacts_language">
-                    <a href="">RU</a>
-                    <a href="">EN</a>
-                    <a href="">CH</a>
-                </div>
+        <div class="upper-menu">
+            <div class="upper-menu__burger-logo">
+                <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button_burger"></button>
+                <img src="svg/cps.svg" alt="Изображение логотипа" class="upper-menu__logo">
             </div>
+            <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button_search"></button>
         </div>
-    </div>    
+    </header>
+    <main>
+        <nav>
+            <ul class="menu">
+                <li class="menu__menu-button"><a href="" class="menu__button-href">Ремонт техники</a></li>
+                <li class="menu__menu-button"><a href="" class="menu__button-href">Услуги и сервисы</a></li>
+                <li class="menu__menu-button"><a href="" class="menu__button-href">Корпоративным клиентам</a></li>
+                <li class="menu__menu-button"><a href="" class="menu__button-href">Продавцам техники</a></li>
+                <li class="menu__menu-button"><a href="" class="menu__button-href">Партнерам</a></li>
+                <li class="menu__menu-button"><a href="" class="menu__button-href">Производителям</a></li>
+                <li class="menu__menu-button"><a href="" class="menu__button-href">Наши сервисные центры</a></li>
+                <li class="menu__menu-button"><a href="" class="menu__button-href">Контакты</a></li>
+            </ul>
+        </nav>
+
+    </main>
+
+<footer>
+    <div class="bottom-menu">
+        <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button_call-me"></button>
+        <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button_chat"></button>
+        <button class="upper-menu__upper-menu-button upper-menu__upper-menu-button_profile"></button>
+        <div class="bottom-menu__contacts">
+            <a class="bottom-menu__email" href="">mail@cps.com</a>
+
+            <span class="bottom-menu__contacts bottom-menu__contacts_number">8 800 890 8900</span>
+            <ul class="bottom-menu bottom-menu__contacts_languages">
+                <li class="bottom-menu bottom-menu__contacts_language"><a href="" class="bottom-menu bottom-menu__contacts_href">RU</a></li>
+                <li class="bottom-menu bottom-menu__contacts_language"><a href="" class="bottom-menu bottom-menu__contacts_href">EN</a></li>
+                <li class="bottom-menu bottom-menu__contacts_language"><a href="" class="bottom-menu bottom-menu__contacts_href">CH</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+<link rel="stylesheet" href="style.css">
 </body>
 
 </html>
